@@ -103,10 +103,6 @@ pip install pytest
 pytest tests/
 ```
 
-## About
-
-`mdp-solver-ic` was developed as part of an undergraduate research project ("Iniciação Científica") titled **Programação Rodoviária**.
-
 ## License
 
 TBD.
