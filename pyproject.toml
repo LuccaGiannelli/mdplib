@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/LuccaGiannelli/mdp-solver"
+Repository = "https://github.com/LuccaGiannelli/mdplib"
 
 [tool.setuptools.packages.find]
 where = ["."]
