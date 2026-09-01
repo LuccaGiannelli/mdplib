@@ -1,7 +1,7 @@
-# mdp-solver-ic
+# mdplib
 
-[![PyPI](https://img.shields.io/pypi/v/mdp-solver-ic.svg)](https://pypi.org/project/mdp-solver-ic/)
-[![Python](https://img.shields.io/pypi/pyversions/mdp-solver-ic.svg)](https://pypi.org/project/mdp-solver-ic/)
+[![PyPI](https://img.shields.io/pypi/v/mdplib.svg)](https://pypi.org/project/mdplib/)
+[![Python](https://img.shields.io/pypi/pyversions/mdplib.svg)](https://pypi.org/project/mdplib/)
 
 A Python library of algorithms for solving infinite-horizon, discounted **Markov Decision Processes (MDPs)**, with a performance-critical core written in C++ (via [pybind11](https://github.com/pybind/pybind11)).
 
@@ -14,10 +14,10 @@ Implements:
 ## Installation
 
 ```bash
-pip install mdp-solver-ic
+pip install mdplib
 ```
 
-Building from source requires a C++17 compiler (the extension is compiled at install time):
+Prebuilt wheels are published for Linux, Windows and macOS (Python 3.10-3.14), so this does **not** require a C++ compiler on your machine. If your platform/Python version has no matching wheel, pip falls back to building from source, which does require a C++17 compiler (the extension is compiled at install time):
 
 ```bash
 git clone https://github.com/LuccaGiannelli/mdp-solver.git
