@@ -3,7 +3,7 @@ requires = ["setuptools", "pybind11>=2.11", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mdp-solver-ic"
+name = "mdplib"
 version = "1.0.0"
 description = "Library of algorithms for infinite-horizon, discounted Markov Decision Processes, with a C++ core"
 readme = "README.md"
@@ -12,6 +12,13 @@ authors = [
     { name = "Lucca Giannelli", email = "lucca.giannelli@gmail.com" },
 ]
 dependencies = ["numpy", "pandas", "pybind11>=2.11"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+]
 
 [project.urls]
 Repository = "https://github.com/LuccaGiannelli/mdp-solver"
