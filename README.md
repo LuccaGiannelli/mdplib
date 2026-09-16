@@ -20,8 +20,8 @@ pip install mdplib
 Prebuilt wheels are published for Linux, Windows and macOS (Python 3.10-3.14), so this does **not** require a C++ compiler on your machine. If your platform/Python version has no matching wheel, pip falls back to building from source, which does require a C++17 compiler (the extension is compiled at install time):
 
 ```bash
-git clone https://github.com/LuccaGiannelli/mdp-solver.git
-cd mdp-solver
+git clone https://github.com/LuccaGiannelli/mdplib.git
+cd mdplib
 pip install .
 ```
 
@@ -105,4 +105,4 @@ pytest tests/
 
 ## License
 
-TBD.
+[MIT](LICENSE)
