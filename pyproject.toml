@@ -11,6 +11,8 @@ requires-python = ">=3.8"
 authors = [
     { name = "Lucca Giannelli", email = "lucca.giannelli@gmail.com" },
 ]
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = ["numpy", "pandas", "pybind11>=2.11"]
 classifiers = [
     "Development Status :: 4 - Beta",
