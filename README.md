@@ -2,6 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/mdplib.svg)](https://pypi.org/project/mdplib/)
 [![Python](https://img.shields.io/pypi/pyversions/mdplib.svg)](https://pypi.org/project/mdplib/)
+[![DOI](https://zenodo.org/badge/1307713585.svg)](https://doi.org/10.5281/zenodo.23188772)
 
 A Python library of algorithms for solving infinite-horizon, discounted **Markov Decision Processes (MDPs)**, with a performance-critical core written in C++ (via [pybind11](https://github.com/pybind/pybind11)).
 
