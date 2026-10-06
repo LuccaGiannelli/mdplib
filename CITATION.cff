@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "mdplib: A Python library with a C++ core for solving infinite-horizon Markov Decision Processes"
+abstract: >-
+  mdplib is an open-source Python library for solving discounted,
+  infinite-horizon Markov Decision Processes. It implements Value Iteration
+  (Jacobi and Gauss-Seidel variants), Policy Iteration, Q-Learning and SARSA,
+  with a numerical core written in C++ and exposed to Python through pybind11.
+authors:
+  - family-names: Giannelli
+    given-names: Lucca
+    affiliation: "Department of Production Engineering, Polytechnic School, University of São Paulo (USP), Brazil"
+  - family-names: Leite
+    given-names: João Marcelo Leal Gomes
+    affiliation: "Department of Production Engineering, Polytechnic School, University of São Paulo (USP), Brazil"
+  - family-names: Arruda
+    name-particle: de
+    given-names: Edilson Fernandes
+    affiliation: "Southampton Business School, University of Southampton"
+    email: e.f.arruda@southampton.ac.uk
+  - family-names: Mangini
+    given-names: Clayton Gerber
+    affiliation: "Universidade Metropolitana de Santos (UNIMES), Brazil"
+    email: clayton.mangini@gmail.com
+  - family-names: Fonseca
+    name-particle: da
+    name-suffix: Junior
+    given-names: Luiz Carlos
+    affiliation: "Autoridade Portuária de Santos (APS), Brazil"
+version: 1.0.4
+date-released: "2026-10-06"
+doi: 10.5281/zenodo.23188772
+license: MIT
+repository-code: "https://github.com/LuccaGiannelli/mdplib"
+url: "https://pypi.org/project/mdplib/"
+keywords:
+  - Markov decision processes
+  - dynamic programming
+  - reinforcement learning
+  - operations research
+  - Python
+  - C++

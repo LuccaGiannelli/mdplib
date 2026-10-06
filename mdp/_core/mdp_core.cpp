@@ -506,7 +506,7 @@ py::dict sarsa_cpp(
 // ─────────────────────────────────────────────────────────────────
 
 PYBIND11_MODULE(_mdp_core, m) {
-    m.doc() = "mdp-solver C++ core";
+    m.doc() = "mdplib C++ core";
 
     m.def("build_transition_index", &build_transition_index,
           "Build the transition_index from the transition_matrix numpy array.");
